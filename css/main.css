@@ -1,0 +1,127 @@
+body {
+    overflow-x: hidden;
+}
+
+.logo-img {
+    width: 233px;
+    height: 20px;
+    color: #111517;
+}
+
+.site-header {
+    background: #fff;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+}
+
+.searchform {
+    /* width: 256px; */
+    width: 100%;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+    background: #fff;
+    padding-left: 32px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.hero {
+    background-color: #fafafa;
+    padding-bottom: 45px;
+}
+
+.searchform::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/search.svg);
+}
+
+.searchinput {
+    width: 208px;
+    padding: 14px 0 14px 26px;
+    border-radius: 5px;
+}
+
+.option-text {
+    color: #fff;
+}
+
+.form-select {
+    max-width: 200px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 24px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+}
+
+.card {
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+}
+
+@media only screen and (min-width: 480px) {
+    .searchform {
+        width: 256px;
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .searchform {
+        width: 480px;
+    }
+
+    .searchinput {
+        width: 428px;
+    }
+}
+
+.dark-mode .logo-img {
+    color: #fff;
+}
+
+.dark-mode .site-header {
+    background-color: #2b3844;
+}
+
+.dark-mode .dark-mode-img {
+    color: #fff;
+}
+
+.dark-mode .btn {
+    color: #fff;
+}
+
+.dark-mode .hero {
+    background-color: #202c36;
+}
+
+.dark-mode .card {
+    background-color: #2b3844;
+}
+
+.dark-mode .card-title {
+    color: #fff;
+}
+
+.dark-mode .card-text {
+    color: #fff;
+}
+
+.dark-mode .searchform {
+    background-color: #2b3844;
+}
+
+.dark-mode .searchinput {
+    background-color: #2b3844;
+}
+
+.dark-mode .form-select {
+    background-color: #2b3844;
+    color: #fff;
+    background-image: url(../images/test.svg);
+}
+
+.dark-mode .option-text {
+    color: #fff;
+}
