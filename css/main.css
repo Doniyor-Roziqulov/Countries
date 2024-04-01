@@ -45,10 +45,6 @@ body {
     border-radius: 5px;
 }
 
-.option-text {
-    color: #fff;
-}
-
 .form-select {
     max-width: 200px;
     padding-top: 14px;
