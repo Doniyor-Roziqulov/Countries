@@ -13,6 +13,10 @@ body {
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
 }
 
+.option-text {
+    color: #000;
+}
+
 .searchform {
     /* width: 256px; */
     width: 100%;
